@@ -1,12 +1,19 @@
-for (i = 0; i <= 1700 ; i++) {
-  let square = document.createElement('div')
-  square.className = 'square'
-  document.body.appendChild(square)
-  }
+
+const tower = document.querySelectorAll('.tower')
+const diskSelector = 3
+const diskRule = []
+//DOM Elements
+    for (i = 1; i <= diskSelector; i++) {
+      let diskDiv = document.createElement('div')
+      diskDiv.id = "disk" + [i]
+      diskDiv.className = 'disk'
+      tower[0].appendChild(diskDiv)
+      diskRule.push(diskDiv.id)
+    }
 
 
 
-
+//Hidden Button
 var text = document.getElementById("text");
 
 var button = document.getElementById("reveal");
@@ -21,10 +28,6 @@ button.onclick = function () {
 // text refers to variable we created in line 1
 // text.style.display (we are changing the style of the text element tot go in-line)
 
-function showText(){
-  var text = document.getElementById("text");
-
-}
 
   function myFunction() {
     document.getElementById("demo").innerHTML = "Restart game";
