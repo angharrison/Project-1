@@ -49,7 +49,9 @@ h1 {
 }
 
 body {
-  background-image: url('ps_neutral copy.png')
+  background-image: url('ps_neutral copy.png');
+  margin: auto;
+  width: 900px;
 }
 
 #Canvas {
@@ -58,8 +60,8 @@ body {
   border: 2px solid rgba(161, 184, 206, 1);
   display: flex;
   flex-direction: row;
-  margin: 1vh;
-  margin: 10.5vw;
+  justify-content: center;
+
 }
 
 #text {
