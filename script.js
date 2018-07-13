@@ -25,10 +25,11 @@ let actions = function(){
    }else if (active === false){
        this.lastChild.style.borderWidth = '5px'
        active = this.lastChild
-   }else if (active.offsetWidth < this.lastChild.offsetWidth || this.childElementCount === 0){
+   }else if (this.childElementCount === 0 || active.offsetWidth < this.lastChild.offsetWidth) {
        active.style.borderWidth = '1px'
        this.appendChild(active)
        active = false
+       winner()
    }else{
        active.style.borderWidth = '1px'
        active = false}
@@ -36,3 +37,18 @@ let actions = function(){
 tower1.addEventListener('click', actions)
 tower2.addEventListener('click', actions)
 tower3.addEventListener('click', actions)
+
+
+function myFunction() {
+  var para = document.getElementById("text");
+  if (para.style.display === "none") {
+    para.style.display = "block";
+  } else {
+    para.style.display = "none";
+    }
+  }
+
+  let btnr = document.querySelector("#button2")
+  btnr.addEventListener('click', () => {
+    location.reload()
+  })

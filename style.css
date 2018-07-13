@@ -30,15 +30,29 @@
 }
 
 #disk1 {
-  width: 140px;
+  width: 160px;
 }
 
 #disk2 {
-  width: 85px;
+  width: 125px;
+}
+#disk3 {
+  width: 110px;
 }
 
-#disk3 {
-  width: 50px;
+#disk4 {
+  width: 90px;
+}
+
+#disk5 {
+  width: 60px;
+}
+
+#text {
+  display: none;
+  text-align: center;
+  margin-top: 10px;
+  padding: 30px 0;
 }
 
 h1 {
@@ -54,16 +68,16 @@ body {
   width: 900px;
 }
 
-#Canvas {
+footer {
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-size: 25px;
+}
+
+.Canvas {
   width: 800px;
   height: 480px;
   border: 2px solid rgba(161, 184, 206, 1);
   display: flex;
   flex-direction: row;
   justify-content: center;
-
-}
-
-#text {
-  display: none;
 }
