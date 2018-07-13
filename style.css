@@ -7,7 +7,7 @@
   width: 260px;
   height: 420px;
   background-image: linear-gradient(90deg, rgba(43, 64, 84, 0.04) 120px, rgba(43, 64, 84, .9) 120px, rgba(43, 64, 84, .9) 125px, rgba(43, 64, 84, .04) 125px);
-  border-bottom: 8px solid rgba(43, 64, 84, 1);
+  border-bottom: 8px solid rgba(43, 64, 84, .9);
   margin: 10px;
 }
 
@@ -30,15 +30,15 @@
 }
 
 #disk1 {
-  width: 55%;
+  width: 140px;
 }
 
 #disk2 {
-  width: 40%;
+  width: 85px;
 }
 
 #disk3 {
-  width: 30%;
+  width: 50px;
 }
 
 h1 {
@@ -55,12 +55,11 @@ body {
 #Canvas {
   width: 800px;
   height: 480px;
-  border: 2px solid rgba(122, 24, 0, 0.51);
-  background-color: rgba(6, 50, 46, 0.19);
+  border: 2px solid rgba(161, 184, 206, 1);
   display: flex;
   flex-direction: row;
-  margin: 0.5vh;
-  margin: 6vw;
+  margin: 1vh;
+  margin: 10.5vw;
 }
 
 #text {
