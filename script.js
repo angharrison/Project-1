@@ -1,7 +1,7 @@
 const tower1 = document.querySelector('#first')
 const tower2 = document.querySelector('#second')
 const tower3 = document.querySelector('#third')
-let diskSelector = 3
+let diskSelector = 5
 const diskRule = []
 
 //DOM Elements
